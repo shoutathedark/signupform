@@ -1,0 +1,130 @@
+@font-face {
+    font-family: NorseBold;
+    src: url(Norse-Bold.otf);
+}
+
+body, html{
+    height: 100%;
+    margin:0;
+}
+
+.bg-img{
+    background-image: url(background-img.avif);
+    height: 100%;
+    width: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    float: left;
+}
+
+.background-color{
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    width: 65%;
+    float: left;
+}
+
+
+.flex-direction-column{
+    flex-direction: column;
+}
+.displayflex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.odin-wrapper{
+    font-family: "NorseBold";
+    font-size: 5em;
+    height: 100px;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+
+.odin-logo{
+    height: 100%;
+}
+
+.odin-content{
+    margin: auto;
+    width: 40%;
+    height: 100%;
+}
+
+.odin-words{
+    margin-top: 15px;
+}
+
+.signup-text-1, .signup-text-2{
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.signup-text-1{
+    padding: 200px 50px 0px 50px;
+}
+
+.signup-text-2{
+    padding: 0px 50px 50px 50px;
+}
+
+fieldset{
+    border: none;
+    background-color: white;
+    padding: 20px 50px 50px 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-box:focus{
+    border-color: blue;
+}
+
+.form-gap{
+    gap: 50px;
+}
+
+input{
+    width: 100%;
+}
+
+.signup-button {
+    background-color: #596D48;
+    border: none;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 50px 0px 0px 50px;
+    cursor: pointer;
+  }
+
+.login-info{
+    padding: 50px;
+}
+
+a.login-link{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 300;
+}
